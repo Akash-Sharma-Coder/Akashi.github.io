@@ -358,7 +358,7 @@ font-size: 1.6rem;
         padding:2rem 3%;
     }
 }
-@media (max-width:768px)
+@media (max-width:760px)
 {
     #menu-icon{display: block;}
     .navbar{
@@ -374,6 +374,7 @@ font-size: 1.6rem;
 }
 .navbar.active{
     display: block;
+    text-align: center;
 }
 .navbar a{
     display: block;

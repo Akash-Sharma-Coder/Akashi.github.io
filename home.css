@@ -343,7 +343,7 @@ font-size: 1.6rem;
         padding: 2rem 3%;
     }
     section{
-        padding: 10rem 3% 2rem;
+        padding: 10rem 21% 2rem;
     }
     .services{
         padding-bottom: 7rem;
@@ -358,7 +358,7 @@ font-size: 1.6rem;
         padding:2rem 3%;
     }
 }
-@media (max-width:760px)
+@media (max-width:768px)
 {
     #menu-icon{display: block;}
     .navbar{

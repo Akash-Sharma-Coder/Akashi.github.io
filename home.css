@@ -371,7 +371,9 @@ font-size: 1.6rem;
 }
 @media (max-width:768px)
 {
-    #menu-icon{display: block;}
+    #menu-icon{display: block;
+        position: relative;
+        right: 8rem;}
     .navbar{
     position: absolute;
     top: 100%;

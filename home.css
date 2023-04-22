@@ -68,6 +68,7 @@ section{
     display: flex;
     justify-content: center;
     align-items: center;
+    
 }
 .home-img img{
 width: 35vw;
@@ -371,9 +372,7 @@ font-size: 1.6rem;
 }
 @media (max-width:768px)
 {
-    #menu-icon{display: block;
-        position: relative;
-        right: 8rem;}
+    #menu-icon{display: block;}
     .navbar{
     position: absolute;
     top: 100%;
@@ -381,8 +380,8 @@ font-size: 1.6rem;
     width: 100%;
     padding:1rem 3%;
     background: var(--bg-color);
-    border-top: .1rem solid rgba(0, 0, 0, 0.2);
-    box-shadow: 0 .5rem 1rem rgba(0, 0, 0, 0.2);
+    border-top: .1rem solid rgba(0, 0, 0, .2);
+    box-shadow: 0 .5rem 1rem rgba(0, 0, 0, .2);
     display: none;
 }
 .about-contant p{
@@ -406,6 +405,7 @@ font-size: 1.6rem;
 .home{
     flex-direction: column;
     padding-left: 20px;
+    
 }
 .home-content h3{
 font-size: 2rem;

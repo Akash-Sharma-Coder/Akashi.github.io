@@ -71,14 +71,15 @@ section{
     
 }
 .home-img img{
-width: 35vw;
-animation: floatImage 4s ease-in-out infinite;
-height: 35vw;
-border-radius: 50%;
-border: 13px solid #0ef;
-position: relative;
-top: 27px;
-left: 3em;
+    display: inline-block;
+    width: 28vw;
+    animation: floatImage 4s ease-in-out infinite;
+    height: 44vw;
+    border-radius: 50%;
+    border: 13px solid #0ef;
+    position: relative;
+    top: -5px;
+    left: 3em;
 }
 @keyframes floatImage{
     0%{
@@ -151,13 +152,13 @@ span{
     background: var(--second-bg-color);
 }
 .about-img img{
-    width: 30vw;
+    width: 28vw;
     animation: floatImage 4s ease-in-out infinite;
-    height: 25vw;
-border-radius: 50%;
-border: 13px solid #0ef;
-position: relative;
-top: -1vw;
+    height: 44vw;
+    border-radius: 50%;
+    border: 13px solid #0ef;
+    position: relative;
+    top: -61px;
 }
 .heading{
     text-align: center;
@@ -416,7 +417,7 @@ font-size: 2rem;
 .home-img img{
     width: 70vw;
     height: 70vw;
-    margin-top: 4rem;
+    margin-top: 7rem;
 }
 .about{
     flex-direction: column-reverse;
@@ -435,7 +436,7 @@ text-align: center;
 .about img{
     width: 70vw;
     height: 70vw;
-    margin-top:4rem;
+    margin-top:12rem;
 }
 .services h2{
     margin-bottom: 3rem;

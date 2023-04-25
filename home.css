@@ -74,9 +74,8 @@ section{
     display: inline-block;
     width: 28vw;
     animation: floatImage 4s ease-in-out infinite;
-    height: 44vw;
-    border-radius: 50%;
-    border: 13px solid #0ef;
+    height: 51vw;
+    background-color:#1f242d;
     position: relative;
     top: -5px;
     left: 3em;
@@ -154,9 +153,7 @@ span{
 .about-img img{
     width: 28vw;
     animation: floatImage 4s ease-in-out infinite;
-    height: 44vw;
-    border-radius: 50%;
-    border: 13px solid #0ef;
+    height: 51vw;
     position: relative;
     top: -61px;
 }
@@ -415,8 +412,8 @@ font-size: 2rem;
     font-size: 2.5rem;
 }
 .home-img img{
-    width: 70vw;
-    height: 70vw;
+    width: 55vw;
+    height: 90vw;
     margin-top: 7rem;
 }
 .about{
@@ -434,7 +431,7 @@ text-align: center;
     text-align: center;
 }
 .about img{
-    width: 70vw;
+    width: 55vw;
     height: 70vw;
     margin-top:12rem;
 }

@@ -9,6 +9,7 @@
     <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
     <!-- custom css -->
     <link rel="stylesheet" href="home.css">
+    <link rel="stylesheet" href="time.css">
 </head>
 <body>
     <!-- header design -->
@@ -26,6 +27,14 @@
 
 
     </nav>
+    <div class="wrapper">
+        <div class="display">
+            <div id="time"></div>
+        </div>
+        <span></span>
+        <span></span>
+    </div>
+    
     </header>
 
     <!--home section desigh-->
@@ -185,5 +194,34 @@
     <script src="https://unpkg.com/scrollreveal"></script>
     <!-- custum js  -->
     <script src="home.js"></script>
+    <script>
+        setInterval(()=>{
+         const time = document.querySelector("#time");
+         let date = new Date();
+         let hours = date.getHours();
+         let minutes = date.getMinutes();
+         let seconds = date.getSeconds();
+         let day_night="PM";
+         if(hours>12){
+             let day_night="AM";
+             hours=hours-12;
+             
+         }
+         if(minutes<10){
+             minutes="0" + minutes;
+         }
+         if(hours<10){
+             hours="0" + hours;
+         }
+         if(minutes<10){
+             minutes="0" + minutes;
+         }
+         if(seconds<10){
+             seconds="0" + seconds;
+         }
+         time.textContent = hours + ":" + minutes + ":" + seconds + " " + day_night;
+ 
+        });
+     </script>
 </body>
 </html>

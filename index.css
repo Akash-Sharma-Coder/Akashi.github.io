@@ -388,6 +388,22 @@ font-size: 1.6rem;
     .footer{
         padding:2rem 3%;
     }
+    .home-content .succed{
+        font-weight:700;
+        font-size: 20px;
+        letter-spacing: 1px;
+    }
+    .succed_list dt{
+        font-size: 16px;
+        font-weight: 600;
+        margin-top: 9px;
+        
+    }
+    .succed_list dd
+    {
+        font-size: 13px;
+        font-weight: 400;
+    }
 }
 @media (max-width:768px)
 {
@@ -468,6 +484,22 @@ text-align: center;
 }
 .portfolio-container{
     grid-template-columns: repeat(2, 1fr);
+}
+.home-content .succed{
+    font-weight:700;
+    font-size: 17px;
+    letter-spacing: 1px;
+}
+.succed_list dt{
+    font-size: 13px;
+    font-weight: 600;
+    margin-top: 6px;
+    
+}
+.succed_list dd
+{
+    font-size: 10px;
+    font-weight: 400;
 }
 }
 

@@ -56,7 +56,10 @@ text-align: justify;
     height: 100%;
     object-fit: cover;
 }
-
+.profileText span{
+    color: #0ef;
+    font-weight: 800;
+}
 .profileText h2{
     color: #fff;
     font-size: 1.5em;

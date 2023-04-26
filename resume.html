@@ -15,9 +15,9 @@
         <div class="left_side">
             <div class="profileText">
                 <div class="imgBox">
-                    <img src="image/home.png">
+                    <img src="image/home2.png">
                 </div>
-                <h2>Akash Sharma<br><span>Web Developer</span></h2>
+                <h2>Akash Sharma<br><h3><span class="muliple-text"></span></h3></h2>
             </div>
             <div class="contactInfo">
                 <h3 class="title">Contact Info</h3>
@@ -290,7 +290,17 @@
         </div>
 
     </div>
-   
-    
+   <!-- typed js  -->
+    <script src="https://unpkg.com/typed.js@2.0.15/dist/typed.umd.js"></script>
+    <script>
+        const typed =new Typed('.muliple-text',{
+strings:['Frontend Developer','Youtuber', 'Blogger'],
+typeSpeed:100,
+backSpeed:100,
+backDelay:1000,
+loop:true,
+
+});
+    </script>
 </body>
 </html>

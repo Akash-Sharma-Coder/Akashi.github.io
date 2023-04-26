@@ -488,18 +488,19 @@ text-align: center;
 .home-content .succed{
     font-weight:700;
     font-size: 17px;
-    letter-spacing: 1px;
+    
 }
 .succed_list dt{
     font-size: 13px;
     font-weight: 600;
     margin-top: 6px;
-    
+    letter-spacing: 1px;
 }
 .succed_list dd
 {
     font-size: 10px;
     font-weight: 400;
+    letter-spacing: 2px;
 }
 }
 

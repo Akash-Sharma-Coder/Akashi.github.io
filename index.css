@@ -64,21 +64,29 @@ section{
     color: var(--text-color);
     display: none;
 }
+.home-content{
+    visibility: visible;
+    opacity: 1;
+    transform: matrix3d(1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, -204, 0, 0, 1);
+}
 .home{
     display: flex;
     justify-content: center;
     align-items: center;
     
 }
+.home-content .home-img{
+    display: inline;
+}
 .home-img img{
     display: inline-block;
-    width: 28vw;
+    width: 22vw;
     animation: floatImage 4s ease-in-out infinite;
-    height: 51vw;
+    height: 37vw;
     background-color:#1f242d;
     position: relative;
-    top: -5px;
-    left: 3em;
+    top: -28px;
+    left: 6em;
 }
     /* .....................succed........... */
     .home-content .succed{
@@ -173,7 +181,7 @@ span{
 .about-img img{
     width: 28vw;
     animation: floatImage 4s ease-in-out infinite;
-    transform: ;
+    transform: scaleX(-1);
     height: 51vw;
     position: relative;
     top: -61px;
@@ -471,6 +479,7 @@ text-align: center;
     width: 55vw;
     height: 90vw;
     margin-top:12rem;
+      
 }
 .services h2{
     margin-bottom: 3rem;
@@ -488,19 +497,18 @@ text-align: center;
 .home-content .succed{
     font-weight:700;
     font-size: 17px;
-    
+    letter-spacing: 1px;
 }
 .succed_list dt{
     font-size: 13px;
     font-weight: 600;
     margin-top: 6px;
-    letter-spacing: 1px;
+    
 }
 .succed_list dd
 {
     font-size: 10px;
     font-weight: 400;
-    letter-spacing: 1px;
 }
 }
 

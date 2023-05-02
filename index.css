@@ -189,6 +189,9 @@ span{
     height: 51vw;
     position: relative;
     top: 0px;
+    visibility: visible;
+    opacity: 1;
+    transform: matrix3d(1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, -204, 0, 0, 1);
 }
 .heading{
     text-align: center;

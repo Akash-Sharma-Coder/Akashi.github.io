@@ -223,8 +223,15 @@ span{
      line-height: 1.2;
      
 }
+#dots{
+    color: yellowgreen;
+    font-size: 28px;
+}
 .about-contant h3{
     font-size: 2.6rem;
+}
+#invisible{
+    display: none;
 }
 .about-contant p{
     font-size: 2.6vh;
@@ -557,7 +564,11 @@ font-size: 1.6rem;
 }
 .about-contant .btn{
  position: relative;
+<<<<<<< HEAD
  left: 19rem;   
+=======
+ left: 30rem;   
+>>>>>>> portfolyo2
 }
 .navbar.active{
     display: block;

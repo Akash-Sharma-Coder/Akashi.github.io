@@ -1,5 +1,11 @@
 $(document).ready(function(){
     $(".invisible-content").hide();
+    $(document).on('click',"#btun1",function(){
+        var moreLessButton=$(".invisible-content").is(":visible")?'Read More':'Read Less';
+        $(this).text(moreLessButton);
+        $(this).parent(".services-box").find(".invisible-content").toggle();
+        $(this).parent(".services-box").find(".visible-content").toggle();
+    });
 });
 
 // toggle icon navbar

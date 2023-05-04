@@ -179,9 +179,8 @@ span{
     gap: 2rem;
     background: var(--second-bg-color);
 }
-.about .about1{
-    color: #fff;
-}
+
+
 .about-img
 {
     display: inline;
@@ -208,6 +207,10 @@ span{
 .about-contant{
     font-size: 2.5rem
 }
+.thank{
+    font-size: 1.5vw;
+    font-weight: 600;
+}
 .about3{
     color: yellow;
 }
@@ -221,10 +224,13 @@ span{
     font-size: 2.6rem;
 }
 .about-contant p{
-    font-size: 1.6px;
+    font-size: 2.6vh;
 
-    margin: 5rem 0 3rem;
+    margin: 2rem -2px 3rem;
     text-align: justify;
+}
+.about-contant .intro{
+    font-size: 16px;
 }
 .contact{
     display: flex;
@@ -524,6 +530,8 @@ font-size: 1.6rem;
         font-size: 13px;
         font-weight: 400;
     }
+    
+    
 }
 @media (max-width:768px)
 {
@@ -539,10 +547,12 @@ font-size: 1.6rem;
     box-shadow: 0 .5rem 1rem rgba(0, 0, 0, .2);
     display: none;
 }
-.about-contant p{
-    font-size: 1.6rem;
-    margin: 2rem -6rem 3rem;
-    text-align: justify;
+.about-contant .intro{
+    font-size: 16px;
+    justify-content: center;
+}
+.thank{
+    font-size: 3.5vw;
 }
 .about-contant .btn{
  position: relative;

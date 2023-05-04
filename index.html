@@ -97,7 +97,8 @@
 
             &diams; I did my Schooling at <b><span style="color:yellowgreen;">Maharaja Agrasen Public School.</span></b><br>
 
-            &diams; I completed my <b><span style="color:yellowgreen;">Bachelor of Technology in Information Technology with (Data Science and Artificial Intelligence).</span></b><br>
+            &diams; I completed my <b><span style="color:yellowgreen;">Bachelor of Technology in Information Technology with (Data Science and Artificial Intelligence).</span></b><span id="dots" >...</span>
+            <div id="invisible"><br>
 
             &diams; My <b><span style="color:yellowgreen;"> Strength</span></b> is a quick learner and able to work with teams and I'm self-motivated and
             disciplined.<br>
@@ -114,8 +115,8 @@
 
             <span style="color: yellow;">Thank you for giving me your valuable time.</span>
 
-            </p></div>
-            <a href="#" class="btn">Read More</a>
+            </div></p><button class="btn"id="btun" onclick="ReadMoreLess()">Read more</button></div>
+            
         </div>
         <div class="about-img">
             <img src="image/home.png" alt="">
@@ -300,6 +301,22 @@
             time.textContent = hours + ":" + minutes + ":" + seconds + " " + day_night;
 
         });
+    </script>
+    <script>
+        function ReadMoreLess(){
+            var dots =document.getElementById("dots");
+            var invisbl=document.getElementById("invisible");
+            var btnText=document.getElementById("btun");
+            if(dots.style.display!="none"){
+                dots.style.display="none"
+                invisbl.style.display="inline"
+                btnText.innerHTML="Read less"
+            }else{
+                dots.style.display="inline"
+                invisbl.style.display="none"
+                btnText.innerHTML="Read more"
+            }
+        }
     </script>
 </body>
 

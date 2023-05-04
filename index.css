@@ -211,9 +211,7 @@ span{
 .about3{
     color: yellow;
 }
-.about1{
-    font-size: ;
-}
+
 .about-contant h2{
      text-align: left;
      line-height: 1.2;
@@ -223,9 +221,9 @@ span{
     font-size: 2.6rem;
 }
 .about-contant p{
-    font-size: 2.6px;
+    font-size: 1.6px;
 
-    margin: 2rem 0 3rem;
+    margin: 5rem 0 3rem;
     text-align: justify;
 }
 .contact{

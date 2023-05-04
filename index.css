@@ -191,7 +191,7 @@ span{
     transform: scaleX(-1);
     height: 31vw;
     position: relative;
-    top: -115px;
+    top: -30px;
     visibility: visible;
     opacity: 1;
     transform: matrix3d(1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, -204, 0, 0, 1);
@@ -205,7 +205,10 @@ span{
     color: greenyellow;
 }
 .about-contant{
-    font-size: 2.5rem
+    font-size: 1.5rem
+}
+.readmore{
+    font-size: 1.5rem;
 }
 .thank{
     font-size: 1.5vw;
@@ -229,9 +232,7 @@ span{
     margin: 2rem -2px 3rem;
     text-align: justify;
 }
-.about-contant .intro{
-    font-size: 16px;
-}
+
 .contact{
     display: flex;
     justify-content: center;
@@ -556,7 +557,7 @@ font-size: 1.6rem;
 }
 .about-contant .btn{
  position: relative;
- left: 7rem;   
+ left: 19rem;   
 }
 .navbar.active{
     display: block;

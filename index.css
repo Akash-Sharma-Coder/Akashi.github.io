@@ -32,7 +32,8 @@ section{
     position: fixed;
     top: 0;
     left: 0;
-    width: 100%;
+    width: 96%;
+    height: 98px;
     padding: 2rem 9%;
     background: var(--bg-color);
     display: flex;
@@ -43,16 +44,23 @@ section{
 .header.sticky{
     border-bottom:  .1rem solid rgba(0,0,0,.2);
 }
-.logo{
-    font-size: 2.5rem;
-    color: var(--text-color);
-    font-weight: 600;
-    cursor: pointer;
+.logo img{
+    position: relative;
+    top:10px;
+    width: 128px;
+
+}
+.navbar{
+    display: flex;
+    margin: auto;
+    justify-content: center;
+    text-align: center;
+    margin-top: -17px;
 }
 .navbar a{
     font-size: 1.7rem;
     color: var(--text-color);
-    margin-left: 4rem;
+    margin: 4rem;
     transition: .3s;
 }
 .navbar a:hover,
@@ -64,11 +72,7 @@ section{
     color: var(--text-color);
     display: none;
 }
-/* .home-content{
-    visibility: visible;
-    opacity: 1;
-    transform: matrix3d(1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, -204, 0, 0, 1);
-} */
+
 .home{
     display: flex;
     justify-content: center;
@@ -538,6 +542,13 @@ font-size: 1.6rem;
         font-size: 13px;
         font-weight: 400;
     }
+    .header {
+        
+        
+        width: 96%;
+        height: 85px;
+       
+      }
     
     
 }
@@ -555,6 +566,11 @@ font-size: 1.6rem;
     box-shadow: 0 .5rem 1rem rgba(0, 0, 0, .2);
     display: none;
 }
+.logo img {
+    position: relative;
+    top: -5px;
+    width: 83px;
+  }
 .about-contant .intro{
     font-size: 16px;
     justify-content: center;

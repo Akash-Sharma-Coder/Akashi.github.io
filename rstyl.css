@@ -6,6 +6,12 @@
     font-family: 'poppins', sans-serif;
 
 }
+:root{
+    --bg-color: #1f242d;
+    --second-bg-color: #323946;
+    --text-color: #fff;
+    --main-color:#0ef;
+}
 body{
     background: lightblue;
     display: flex;
@@ -153,9 +159,26 @@ margin-bottom: 15px;
     text-transform: uppercase;
     letter-spacing: 1px;
     margin-bottom: 10px;
+    margin-top: 25px;
 }
 p{
     color: #333;
+    text-align: justify;
+}
+.btn{
+    display: inline-block;
+    padding: 1rem 2.8rem;
+    background: var(--main-color);
+    border-radius: 4rem;
+    box-shadow: 0 0 1rem var(--main-color);
+    font-size: 1.6rem;
+    color: var(--second-bg-color);
+    letter-spacing: .1rem;
+    font-weight: 600;
+    transition: .5s ease;
+}
+.btn:hover{
+    box-shadow: none;
 }
 .about .box{
     display: flex;
